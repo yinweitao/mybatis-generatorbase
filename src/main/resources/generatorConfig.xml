@@ -6,7 +6,8 @@
 <generatorConfiguration>
 
 	<!-- 这个配置文档可以参考官网:http://www.mybatis.org/generator/configreference/context.html -->
-
+	<!-- 学习文章:https://blog.csdn.net/zsq520520/article/details/50952830 ，https://blog.csdn.net/isea533/article/details/42102297 -->
+	
 	<!-- 引入zip包,我们用解压后的jar包,故舍弃这种方式 -->
 	<!-- <classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip" /> -->
 
