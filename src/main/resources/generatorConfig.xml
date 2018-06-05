@@ -20,6 +20,9 @@
 
 	<context id="DB2Tables" targetRuntime="MyBatis3Simple">
 
+		<!-- 自动生成实体类的tostring方法 -->
+		<plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+		
 		<commentGenerator>
 			<!-- 是否去除自动生成的注释 true：是 ： false:否 -->
 			<property name="suppressAllComments" value="true" />
